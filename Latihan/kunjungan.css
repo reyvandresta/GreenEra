@@ -1,0 +1,254 @@
+@font-face {
+    font-family: Sansation;
+    src: url(Sansation_Regular.ttf)
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sansation";
+    line-height: 1.6;
+    background-color: F6F5F2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#f4f4f4;   
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+    color:#333;
+}
+
+nav ul li a:hover {
+    text-decoration:underline;
+}
+
+.gambarlogomuseum {
+    width: 50%;
+    height: auto;
+    
+}
+
+.depan img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.balok {
+    font-family: "Sansation";
+    font-size: xx-large;
+    position: absolute;
+    top: 130%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    padding: 10px 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 0px;
+}
+
+.visit {
+    font-family: "Sansation";
+    font-size: large;
+    text-decoration: underline;
+    color: white;
+}
+
+.depan {
+    margin-bottom: 65px;
+}
+
+.title {
+    margin-bottom: 65px;
+}
+
+.deskripsi img {
+    margin-right: 10px; /* Jarak antara gambar dan teks */
+}
+
+.Layanan {
+    margin-left: 100px; /* Mengatur jarak dari sisi kiri */
+    margin-top: 30px; /* Mengatur jarak dari atas */
+    font-family: "Sansation";
+    font-size: x-large;
+}
+
+.kanan {
+    display: flex;
+    justify-content: flex-end; /* Mengatur agar konten di pojok kanan */
+    align-items: center;
+    font-family: "Sansation";
+    margin-right: 300px; /* Memberikan sedikit ruang di sebelah kanan */
+    margin-top: -40px;
+    padding: auto;
+}
+
+.panah1 {
+    margin-left: 650px; /* Atur jarak antara panah dan teks */
+    padding: left;
+}
+
+.kanan h2,
+.kanan p {
+    margin-left: 20px; /* Atur jarak antara teks dan panah */
+}
+
+
+.kanan img {
+    max-width: 30%; /* Batasi lebar gambar */
+}
+
+.garis1 {
+    border: none; /* Hilangkan garis bawaan */
+    border-top: 4px solid black; /* Atur garis atas */
+    width: 50%; /* Atur lebar garis */
+    margin: 20px auto; /* Atur jarak dari atas dan bawah, dan posisikan ke tengah */
+    left: 90%;
+}
+
+.garis4 {
+    border: none; /* Hilangkan garis bawaan */
+    border-top: 4px solid black; /* Atur garis atas */
+    width: 95%; /* Atur lebar garis */
+    margin: 20px auto; /* Atur jarak dari atas dan bawah, dan posisikan ke tengah */
+}
+
+.deskripsi2 {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.deskripsi3 {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.deskripsi4 {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.deskripsi5 {
+    margin-top: 20px;
+    padding-bottom: 70px;
+    margin-left: 60px;
+}
+
+
+.deskripsi6 {
+    margin-top: 30px;
+    margin-left: 60px;
+   text-align: relative;
+}
+
+.deskripsi7 {
+    margin-top: 30px;
+    margin-left: 60px;
+   text-align: relative;
+}
+
+.deskripsi8 {
+    margin-top: 30px;
+    margin-left: 60px;
+    padding-bottom: 87px;
+   text-align: relative;
+}
+
+.harga {
+    padding-bottom: 35px;
+}
+
+footer {
+    background-color: #333;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: relative; /* Menggunakan fixed position */
+    bottom: 0; /* Menempatkan footer di bagian bawah layar */
+    width: 100%;
+    height: 20vh;
+  }
+  
+  .bwh {
+    display: flex;
+    align-items: center; /* Mengatur posisi vertikal */
+    margin-left: 350px;
+  }
+  
+  .bwh img {
+    max-width: 100px; /* Mengatur lebar maksimum gambar */
+    height: auto; /* Menyesuaikan tinggi gambar agar proporsional */
+  }
+  
+  .teks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Mengatur posisi horizontal menjadi tengah */
+    text-align: left;
+    flex-grow: 1; /* Memungkinkan elemen untuk memperluas dan mengambil ruang yang tersisa */
+    margin-left: 80px;
+  }
+  
+  .teks p {
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin: 0 auto;
+    margin-right: 250px;
+  }
+  
+  .icon i {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .icon a i {
+    color: rgb(255, 255, 255); /* Mengubah warna ikon menjadi hitam */
+    text-decoration: none; /* Menghapus garis bawah dari tautan */
+    margin-right: 10px; /* Menambahkan jarak antara ikon */
+  }
+  .text-link h2 {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.text-link h2:hover {
+    color: darkblue;
+}

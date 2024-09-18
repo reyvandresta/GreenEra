@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Feedback</h1>
+        <form action="" method="post">
+            <table>
+                <tr>
+                    <td>Nama</td>
+                    <td><input type="text" name="nama_feedback"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="email_feedback"></td>
+                </tr>
+                <tr>
+                    <td>Ulasan</td>
+                    <td><input type="text" name="ulasan_feedback"></td>
+                </tr>
+                <tr>
+                    <td>Saran/Pesan</td>
+                    <td><input type="text" name="saran_feedback"></td>
+                </tr>
+                <tr>
+                    <td>Rating</td>
+                    <td>
+                        <div class="rating">
+                            <input type="radio" id="star5" name="bintang_feedback" value="5"><label for="star5" title="5 star"></label>
+                            <input type="radio" id="star4" name="bintang_feedback" value="4"><label for="star4" title="4 stars"></label>
+                            <input type="radio" id="star3" name="bintang_feedback" value="3"><label for="star3" title="3 stars"></label>
+                            <input type="radio" id="star2" name="bintang_feedback" value="2"><label for="star2" title="2 stars"></label>
+                            <input type="radio" id="star1" name="bintang_feedback" value="1"><label for="star1" title="1 stars"></label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Simpan" name="proses"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+    </body>
+    </html>

@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sansation;
+    line-height: 1.6;
+    background-color: F6F5F2;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:#f4f4f4;   
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+    color:#333;
+}
+
+nav ul li a:hover {
+    text-decoration:underline;
+}
+
+
+.gambarlogomuseum {
+    width: 50%;
+    height: auto;
+    
+ }
+
+ .depan img {
+    width: 100%;
+    height: auto;
+    position: relative;
+ }
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: relative; /* Menggunakan fixed position */
+    bottom: 0; /* Menempatkan footer di bagian bawah layar */
+    width: 100%;
+    height: 20vh;
+  }
+  
+  .bwh {
+    display: flex;
+    align-items: center; /* Mengatur posisi vertikal */
+    margin-left: 350px;
+  }
+  
+  .bwh img {
+    max-width: 100px; /* Mengatur lebar maksimum gambar */
+    height: auto; /* Menyesuaikan tinggi gambar agar proporsional */
+  }
+  
+  .teks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Mengatur posisi horizontal menjadi tengah */
+    text-align: left;
+    flex-grow: 1; /* Memungkinkan elemen untuk memperluas dan mengambil ruang yang tersisa */
+    margin-left: 80px;
+  }
+  
+  .teks p {
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin: 0 auto;
+    margin-right: 250px;
+  }
+  
+  .icon i {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .icon a i {
+    color: rgb(255, 255, 255); /* Mengubah warna ikon menjadi hitam */
+    text-decoration: none; /* Menghapus garis bawah dari tautan */
+    margin-right: 10px; /* Menambahkan jarak antara ikon */
+  }
+.container {
+    text-align: center;
+  }
+  .button-container {
+    margin-bottom: 10px;
+    
+  }
+  .button-container button {
+    left: 50px;
+    margin-right: 130px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-left: -90px;
+    
+  }
+  .Collection {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 120px;
+  }
+  .Collection2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 125px;
+  }
+
+  .tombolmenu {
+    margin-right: -35px;
+  }
+  .gambarkoleksi {
+    margin-top: 100px;
+    margin-left: 150px;
+  }
+  .image-with-text {
+    display: flex;
+    align-items: center;
+}
+.image-with-text img {
+    margin-right: 20px;
+}
+.button-with-text:hover img {
+    transform: scale(1.1);
+}
+.textcuy {
+    margin-top:-90px;
+    margin-left: 50px;
+}
+.jaraktext {
+    margin-top:30px;
+    display: flex;
+    align-items: center; 
+}
+.button-with-text {
+    position: relative;
+}
+.jarakmenu {
+    margin-left: 100px;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 10px;
+}
+h2 {
+    margin-left: -10px;
+    margin-bottom: 10px;
+}
+.collection-heading {
+    position: absolute;
+    right: -160px;
+    top: 25px;
+    margin: 0;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 120px;
+    font-family: sansation;
+}
+
+.keris {
+    margin-right: 110px;
+}
+.Figurin {
+    margin-right: 90px;
+}
+.Koffo {
+    margin-right: 40px;
+}
+.celengan {
+    margin-right: 60px;
+}
+.Chattra {
+    margin-right: 90px;
+}
+.ani {
+    margin-right: 80px;
+}
+.bell {
+    margin-right: 130px;
+}
+.perawatan {
+    margin: 50px;
+    font-family: sansation;
+}

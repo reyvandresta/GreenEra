@@ -1,0 +1,77 @@
+
+    body {
+        font-family: sansation;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    form {
+        text-align: left;
+    }
+    table {
+        width: 100%;
+    }
+    table td {
+        padding: 10px 0;
+    }
+    input[type="text"] {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    .rating {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        flex-direction: row-reverse;
+    }
+    .rating input[type="radio"] {
+        display: none;
+    }
+    .rating label {
+        background-image: url('/Assets/star\ before.png');
+        background-size: 30px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin: 0.5px;
+        transition: transform 0.2s ease-in-out;
+        display: inline-block;
+    }
+    .rating label:hover,
+    .rating input[type="radio"]:checked ~ label {
+        transform: scale(1.2);
+    }
+    .rating input[type="radio"]:checked ~ label {
+        background-image: url('/Assets/star\ after.png');
+    }
